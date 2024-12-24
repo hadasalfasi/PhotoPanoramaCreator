@@ -56,27 +56,6 @@ namespace panoramaApp
             }
         }
 
-        //private void button1_Click_1(object sender, EventArgs e)
-        //{
-        //    if (imageIndex >= 3)
-        //    {
-        //        MessageBox.Show("You have already uploaded 3 photos", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        return;
-        //    }
-
-        //    using (OpenFileDialog openFileDialog = new OpenFileDialog())
-        //    {
-        //        openFileDialog.Filter = "Image Files|*.jpg;*.png;*.jpeg";
-        //        if (openFileDialog.ShowDialog() == DialogResult.OK)
-        //        {
-        //            string filePath = openFileDialog.FileName;
-        //            images[imageIndex] = Cv2.ImRead(filePath);
-        //            imageIndex++;
-        //        }
-        //    }
-        //}
-
-
 
         private void button4_Click_1(object sender, EventArgs e)
         {
