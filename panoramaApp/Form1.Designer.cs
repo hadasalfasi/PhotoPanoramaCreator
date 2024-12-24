@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.uploadimages = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // uploadimages
             // 
-            this.button1.Location = new System.Drawing.Point(362, 45);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.uploadimages.Location = new System.Drawing.Point(291, 60);
+            this.uploadimages.Name = "uploadimages";
+            this.uploadimages.Size = new System.Drawing.Size(214, 40);
+            this.uploadimages.TabIndex = 0;
+            this.uploadimages.Text = "Loading images";
+            this.uploadimages.UseVisualStyleBackColor = true;
+            this.uploadimages.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(362, 115);
+            this.button4.Location = new System.Drawing.Point(291, 119);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(214, 44);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "for panoramic connection";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
@@ -70,7 +70,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.uploadimages);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -80,7 +80,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button uploadimages;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
